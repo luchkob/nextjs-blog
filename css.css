@@ -1,0 +1,132 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    width: 100vw;
+     
+    --color-light-green: rgb(109, 233, 150);
+
+}
+body::-webkit-scrollbar{
+    display: none
+}
+.header{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: fixed;
+     width: 100vw;
+      padding: 5px ;
+     background-color: rgb(255 255 255 / 0.3);
+     backdrop-filter: blur(10px);
+     top: 0px;
+}
+
+header > div{
+    position: relative;
+    display: flex;
+
+    
+}
+.input-in-header {
+    border-radius: 12px;
+    outline: none;
+    border:none;
+    border-bottom: 2px grey solid;
+    text-align: center;
+    padding: 12px;
+    color: rgb(198, 47, 47);
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+.icon-home{
+    cursor: pointer;
+    color: gray;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+
+}
+.icon-home:hover{
+    color: black;
+    
+
+   
+}
+.icon{
+    position: absolute;
+    top: 11px;
+    left: 12px;
+    color: gray;
+
+}
+ button{
+    outline: none;
+    border:none ;
+
+ }
+ main{
+    
+     
+ }
+ .color-main{
+    display: grid;
+    grid-template-columns: 100px 100px;
+     text-transform: uppercase;
+      
+     background-color: gray;
+     border-radius: 12px;
+     align-items:center
+      
+ }
+ .color{
+    
+ }
+ .img{
+    width: 200px;
+    text-align: center;
+    height: auto;border-radius: 5px;
+    margin:auto
+ }
+ 
+ p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: gray;
+    padding:.8em;
+
+ }
+ .main-1{
+    display: flex;
+    flex-direction: column;
+ }
+ .hidden{
+    display: none;
+ }
+ .nav{
+    display:flex;
+    position:fixed;
+    height: 100vh;
+    top:3.3rem;
+      border-radius: 12px;
+    width: 150px;
+    background-color: rgb(59, 54, 64);
+ }
+ .main-in-nav{
+    display: flex;
+    color: white;
+    margin-top: 1rem;
+    align-items: center;
+    height: fit-content;
+    gap: 3rem;
+    flex-direction: column;
+    margin-left: 5px;
+ }
+ .icon-in-nav:hover{
+    transform: translateX(12px);
+    
+ }
+  
+  
